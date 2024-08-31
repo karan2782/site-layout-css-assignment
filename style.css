@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo{
+    width: 170px;
+}
+
+.logo>img{
+    width: 100%;
+}
+nav>ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+}
+nav>ul button{
+    padding: 8px 14px;
+    font-size: 18px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.box{
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box>p{
+    line-height: 20px;
+    padding-top: 8px;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.heading-content{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.boxes{
+    margin-top: 50px;
+    display: flex;
+    gap: 35px;
+}
+
+.blog-box{
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.blog-box img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.text{
+    padding: 10px;
+
+}
+.text>p:nth-child(3){
+    color: grey;
+    font-size: 14px;
+}
+.blog{
+    padding: 0 20px;
+    margin-top: 160px;
+}
+.blog-boxes{
+    display: flex;
+    /* background-color: yellowgreen; */
+    gap: 30px;
+    
+}
+main{
+    margin: auto;
+}
+.form{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+   
+
+}
+.form-div{
+    margin-top: 100px;
+    background-color: yellow;
+    padding: 50px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 10px;
+}
+form>input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+}
+
+form>button{
+    background-color: rgb(24, 91, 191);
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.required{
+    color:red;
+}
+footer{
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
